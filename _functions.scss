@@ -1,0 +1,24 @@
+@import "./variables";
+
+@function drop-shadow-elevation($z-value) {
+  @if type-of($z-value) != number or not unitless($z-value) {
+    @error "$z-value must be a unitless number, but received '#{$z-value}'";
+  }
+
+  @if $z-value < 0 or $z-value > 24 {
+    @error "$z-value must be between 0 and 24, but received '#{$z-value}'";
+  }
+
+  $umbra-z-value: map-get($drop-shadow-umbra-map, $z-value);
+  $penumbra-z-value: map-get($drop-shadow-penumbra-map, $z-value);
+  $ambient-z-value: map-get($drop-shadow-ambient-map, $z-value);
+
+  $umbra-color: rgba(black, $drop-shadow-umbra-opacity);
+  $penumbra-color: rgba(black, $drop-shadow-penumbra-opacity);
+  $ambient-color: rgba(black, $drop-shadow-ambient-opacity);
+
+  @return
+    drop-shadow(#{"#{$umbra-z-value} #{$umbra-color}"})
+    drop-shadow(#{"#{$penumbra-z-value} #{$penumbra-color}"})
+    drop-shadow(#{$ambient-z-value} $ambient-color);
+}

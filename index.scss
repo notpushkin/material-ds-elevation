@@ -1,0 +1,7 @@
+@import "./functions";
+
+@for $z-value from 0 through 24 {
+  .drop-shadow-elevation--z#{$z-value} {
+    filter: drop-shadow-elevation($z-value);
+  }
+}

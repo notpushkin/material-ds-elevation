@@ -1,0 +1,88 @@
+$drop-shadow-baseline-color: black;
+$drop-shadow-umbra-opacity: .2;
+$drop-shadow-penumbra-opacity: .14;
+$drop-shadow-ambient-opacity: .12;
+
+$drop-shadow-umbra-map: (
+  0: "0px 0px 0px",
+  1: "0px 2px 1px",
+  2: "0px 3px 1px",
+  3: "0px 3px 3px",
+  4: "0px 2px 4px",
+  5: "0px 3px 5px",
+  6: "0px 3px 5px",
+  7: "0px 4px 5px",
+  8: "0px 5px 5px",
+  9: "0px 5px 6px",
+  10: "0px 6px 6px",
+  11: "0px 6px 7px",
+  12: "0px 7px 8px",
+  13: "0px 7px 8px",
+  14: "0px 7px 9px",
+  15: "0px 8px 9px",
+  16: "0px 8px 10px",
+  17: "0px 8px 11px",
+  18: "0px 9px 11px",
+  19: "0px 9px 12px",
+  20: "0px 10px 13px",
+  21: "0px 10px 13px",
+  22: "0px 10px 14px",
+  23: "0px 11px 14px",
+  24: "0px 11px 15px"
+);
+
+$drop-shadow-penumbra-map: (
+  0: "0px 0px 0px",
+  1: "0px 1px 1px",
+  2: "0px 2px 2px",
+  3: "0px 3px 4px",
+  4: "0px 4px 5px",
+  5: "0px 5px 8px",
+  6: "0px 6px 10px",
+  7: "0px 7px 10px",
+  8: "0px 8px 10px",
+  9: "0px 9px 12px",
+  10: "0px 10px 14px",
+  11: "0px 11px 15px",
+  12: "0px 12px 17px",
+  13: "0px 13px 19px",
+  14: "0px 14px 21px",
+  15: "0px 15px 22px",
+  16: "0px 16px 24px",
+  17: "0px 17px 26px",
+  18: "0px 18px 28px",
+  19: "0px 19px 29px",
+  20: "0px 20px 31px",
+  21: "0px 21px 33px",
+  22: "0px 22px 35px",
+  23: "0px 23px 36px",
+  24: "0px 24px 38px"
+);
+
+$drop-shadow-ambient-map: (
+  0: "0px 0px 0px",
+  1: "0px 1px 3px",
+  2: "0px 1px 5px",
+  3: "0px 1px 8px",
+  4: "0px 1px 10px",
+  5: "0px 1px 14px",
+  6: "0px 1px 18px",
+  7: "0px 2px 16px",
+  8: "0px 3px 14px",
+  9: "0px 3px 16px",
+  10: "0px 4px 18px",
+  11: "0px 4px 20px",
+  12: "0px 5px 22px",
+  13: "0px 5px 24px",
+  14: "0px 5px 26px",
+  15: "0px 6px 28px",
+  16: "0px 6px 30px",
+  17: "0px 6px 32px",
+  18: "0px 7px 34px",
+  19: "0px 7px 36px",
+  20: "0px 8px 38px",
+  21: "0px 8px 40px",
+  22: "0px 8px 42px",
+  23: "0px 9px 44px",
+  24: "0px 9px 46px"
+);

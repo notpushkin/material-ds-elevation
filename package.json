@@ -1,0 +1,17 @@
+{
+  "name": "material-ds-elevation",
+  "description": "Like @material/elevation, but with drop-shadow",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "keywords": [
+    "material components",
+    "material design",
+    "elevation",
+    "drop-shadow"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/iamale/material-ds-elevation.git"
+  },
+  "dependencies": {}
+}
